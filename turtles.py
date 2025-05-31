@@ -3,9 +3,9 @@ turtle.Screen().bgcolor("lightgreen")
 t=turtle.Screen()
 t.setup(400,300)
 
-t.title("Let's create drawings")
+t.title("Let's create drawings: How to draw a Square")
 t=turtle.Turtle()
-t.shape("turtle")
+t.shape("circle")
 t.color("red")
 t.pensize(5)
 
