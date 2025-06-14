@@ -13,3 +13,19 @@ parr=parrot("Tom",5)
 par2=parrot("Luca",15)
 print(parr.name,"Is a",parr.species)
 print(par2.name,"Is",par2.age," years old")
+
+# Write a Python class named Rectangle with a length and width and a method that computes the area of a rectangle. Display the dimensions and calculated area of the rectangle as well
+class rectangle:
+    def __init__(self,l,w):
+        self.l=l
+        self.w=w
+    def area(self):
+        return self.l*self.w
+    
+    def p(self):
+        return 2*(self.l+self.w)
+l=int(input("Enter Length of the rectangle: "))
+w=int(input("Enter Width of the rectangle: "))
+r=rectangle(l,w)
+print("Area of a rectangle with the length",r.l,"cm and a width of",r.w,"cm Is: ",r.area(),"cm square")
+print("Perimeter of a rectangle with the length",r.l,"cm and a width of",r.w,"cm Is: ",r.p(),"cm")
