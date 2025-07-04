@@ -1,0 +1,2 @@
+This is a file write modeNow you will see, this file is being overwritten
+Now you will see, file will add new lines
