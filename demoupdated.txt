@@ -1,5 +1,3 @@
 This is a file write modeNow you will see, 
 This file is being overwritten
-Now you will see, file will add new lines
 This is the end of the file
-bye
